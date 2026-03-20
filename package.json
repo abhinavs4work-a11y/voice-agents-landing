@@ -1,1 +1,29 @@
-{\n  "name": "voice-agents-landing",\n  "version": "1.0.0",\n  "private": true,\n  "dependencies": {\n    "next": "14.0.0",\n    "react": "^17.0.0",\n    "react-dom": "^17.0.0",\n    "typescript": "^4.0.0",\n    "tailwindcss": "^2.2.0",\n    "gsap": "^3.0.0",\n    "framer-motion": "^4.0.0",\n    "three": "^0.132.2"\n  },\n  "scripts": {\n    "dev": "next dev",\n    "build": "next build",\n    "start": "next start"\n  }\n}
+{
+  "name": "voice-agents-landing",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.4.0",
+    "gsap": "^3.12.0",
+    "framer-motion": "^10.12.0",
+    "three": "^0.156.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "eslint": "8.0.0"
+  }
+}
